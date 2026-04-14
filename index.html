@@ -56,7 +56,7 @@
       <a-assets>
         <!-- IMPORTANTE: evita espacios en el id -->
         <video
-          id="Multi"
+          id="Multimetro"
           src="VideoMultimetro.mp4"
           preload="auto"
           playsinline
@@ -68,7 +68,7 @@
       <!-- Tu marcador -->
       <a-marker type="pattern" url="marker4.patt" id="marker">
         <a-video
-          src="#Multi"
+          src="#Multimetro"
           width="1"
           height="2"
           position="0 0 0"
@@ -89,7 +89,7 @@
     </a-scene>
 
     <script>
-      const video = document.getElementById('Multi');
+      const video = document.getElementById('Multimetro');
       const marker = document.getElementById('marker');
       const overlay = document.getElementById('overlay');
       const startBtn = document.getElementById('startBtn');
